@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.bg-layer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+}
+
+.grid-container{
+    padding: 2.5rem;
+    height: auto;
+    width: auto;
+    background-color: #1b1a1a;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 400px));
+    grid-gap: 1rem;
+    padding-top: 5rem;
+}
+.grid-item{
+    border: 1px solid white;
+    color: rgb(121, 210, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header{
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: none;
+    margin-bottom: 3rem;
+}
+#first-nav{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#gogologo{
+    height: 3.5rem;
+    width: 8rem;
+    margin-right: 1rem;
+}
+#first-nav ul li{
+    list-style: none;
+    padding: 1.5rem;
+    display: inline;
+    align-items: center;
+    vertical-align: middle;
+    padding: 1rem 1rem;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.1rem;
+}
+#first-nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-underline-offset:1rem;
+}
+#first-nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #d7da1b;
+    
+}
+
+#second-nav{
+    height: 2rem;
+    width: 20rem;
+    margin-left: 30px;
+    background-color: black;
+    border: 0.7px solid whitesmoke;
+    border-radius: 2px;
+    color: aliceblue;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem;
+    font-size: small;
+    font-family: "Roboto Mono", monospace;
+}
+#second-nav img{
+    height: 1.2rem;
+    width: 1.2rem;
+
+}
+#main_anime{
+   grid-row-start:2;
+   grid-row-end: 11;
+   grid-column-start: 1;
+   grid-column-end: 3;
+   border: 1px solid white;
+}
+.bar_main{
+    height: 2.4rem;
+    width: 100%;
+    background-color: #ffc918;
+    display: flex;
+    padding-left: 10px;
+    align-self: self-start;
+    justify-content: space-between;
+    align-items: center;
+}
+#bar-main1{
+    height: 1.3rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#bar-main1 ul li{
+    list-style: none;
+    height: 1.3rem;
+    vertical-align: middle;
+    display: inline;
+}
+#bar-main1 ul li a{
+    text-decoration: none;
+    border-right: 2px solid black;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    font-size: smaller;
+    padding: 5px;
+    transition: all 0.3s linear;
+}
+#bar-main1 ul li a:hover{
+    color:white;
+}
+#bar-main1 ul li img{
+   height: 4rem;
+   width: 4rem;
+   margin-right: 5px;
+   padding-bottom: 10px;
+}
+#back-main1{
+    height: 2.4rem;
+    width: 9.5rem;
+    background-image: url(images/4.jfif);
+    opacity: 0.7;
+}
+#bar-main2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#cnt{
+    height: 1.4rem;
+    width: 1.7rem;
+    color: black;
+    font-size: small;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cnt:hover{
+    color: white;
+    background-color: #16970f;
+}
+#cnt a:hover{
+    color: aliceblue;
+}
+#main-grid-bg{
+    overflow: hidden;
+    padding-top: 3rem;
+    vertical-align: middle;
+}
+#main-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 180px));
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    padding-left: 2rem;
+}
+#anime-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 19rem;
+}
+#anime-grid-text{
+    width: 100%;
+    align-self: center;
+    padding-right: 0.5rem;
+}
+#anime-grid-img{
+    height: 80%;
+    width: 100%;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+    align-self: center;
+
+}
+#anime-grid-img img{
+    height: 100%;
+    object-fit: fill;
+
+}
+#anime-grid-img:hover img{
+    transform: scale(1.15);
+}
+#anime-grid-text{
+    padding-top: 0.5rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s linear;
+}
+#anime-grid-text #anime-name:hover{
+    color: white;
+
+}
+#anime-name{
+    color: #ffc918;
+    font-size: small;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    padding-bottom: 1rem;
+    align-self: center;
+}
+#anime-episode{
+    color: white;
+    font-size: small;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+
+}
+
+#advertisements{
+    grid-column: 3/4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 1px solid white;
+}
+
+#ad-img1{
+   height: 4.2rem;
+   width: 4.5rem;
+   margin-right: 5px;
+   padding-bottom: 10px;
+}
+#ad-img2{
+    height: 3rem;
+    width: 3rem;
+    opacity: 0.1;
+}
+
+#title-div{
+    height: 2.4rem;
+    width: 100%;
+    background-color: #ffc918;
+    align-self: self-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: smaller;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    color: black;
+    justify-content: space-between;
+
+}
+#title-div ul li{
+    list-style: none;
+    display: inline;
+}
+#img-ad{
+    height: 2.4rem;
+    width: 100%;
+    background-color: aqua;
+}
+

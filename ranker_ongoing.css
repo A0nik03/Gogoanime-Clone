@@ -1,0 +1,143 @@
+#rankings{
+    grid-row: 3/8;
+    grid-column: 3/4;
+    border: 1px solid white;
+}
+#ranker_img{
+   height: 3.5rem;
+   width: 3.5rem;
+   margin-right: 5px;
+
+}
+#bar_ranker{
+    height: 2.4rem;
+    width: 100%;
+    background-color: #ffc918;
+    align-self: self-start;
+    display: flex;
+    align-items: center;
+}
+#bar_ranker ul li{
+    list-style: none;
+    display: inline;
+    vertical-align: middle;
+}
+#bar_ranker ul li a{
+    text-decoration: none;
+    border-right: 2px solid black;
+    padding-right: 10px;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    font-size: smaller;
+    font-weight: 500;
+    transition: all 0.3s linear;
+}
+#bar_ranker ul li a:hover{
+    color:white;
+}
+#ranker_content{
+    align-self: self-start;
+    font-family: "Roboto Mono", monospace;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+#content{
+    padding-left: 1rem;
+    padding-right: 10px;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    
+}
+
+#content ul li{
+    list-style: none;
+    display: inline;
+    vertical-align: middle;
+    float: left;
+
+}
+#sr{
+    color: #f7cd14;
+    font-size: 0.8rem;
+}
+#anime_name{
+    color: #f7cd14;
+    font-size: 0.7rem;
+    transition: all 0.4s linear;
+}
+#anime_name:hover{
+    color: white;
+}
+#episode{
+    color: white;
+    font-size: 0.6rem;
+}
+
+#ongoings{
+    grid-row: 8/12;
+    grid-column: 3/4;
+    border: 1px solid white;
+}
+
+#ad-img1{
+   height: 4.2rem;
+   width: 4.5rem;
+   margin-right: 5px;
+   padding-bottom: 10px;
+}
+#ad-img2{
+    height: 3rem;
+    width: 3rem;
+    opacity: 0.1;
+}
+
+#ongoing-div{
+    height: 2.4rem;
+    width: 100%;
+    background-color: #ffc918;
+    align-self: self-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: smaller;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    color: black;
+    justify-content: space-between;
+
+}
+#ongoing-div ul li{
+    list-style: none;
+    display: inline;
+}
+#img-ad{
+    height: 2.4rem;
+    width: 100%;
+    background-color: aqua;
+}
+
+#ongoing-content{
+    padding-left: 25px;
+    padding-top: 30px;
+    height: 91.75%;
+    width: 100%;
+    align-self: self-end;
+
+}
+#ongoing-content ul li{
+    list-style: none;
+    padding-bottom: 15px;
+    font-size: 0.75rem;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    color: #ffc918;
+    transition: all 0.1s linear;
+}
+#ongoing-content ul li:hover{
+    color: whitesmoke;
+}
