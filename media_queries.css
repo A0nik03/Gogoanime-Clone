@@ -1,0 +1,24 @@
+@media (max-width: 1320px) {
+    #main_anime{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    #advertisements{
+    grid-column: 1/4;
+    grid-row: 5/6;
+    }
+    #rankings{
+        grid-row: 7/10;
+        grid-column: 1/4;
+    }
+    #ongoings{
+        grid-row: 11/12;
+        grid-column: 1/4;
+    }
+    #popular{
+        grid-row: 12/14;
+        grid-column: 1/4;
+     }
+
+    
+  }
