@@ -20,7 +20,7 @@ body{
     width: 72.5%;
     background-color: #1b1a1a;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 400px));
+    grid-template-columns: repeat(4,1fr);
     grid-gap: 1rem;
     padding-top: 5rem;
 }
@@ -52,13 +52,12 @@ body{
 }
 #first-nav ul li{
     list-style: none;
-    padding: 1.5rem;
     display: inline;
     align-items: center;
     vertical-align: middle;
     padding: 1rem 1rem;
     font-family: "Roboto Mono", monospace;
-    font-size: 1.4rem;
+    font-size: 20px;
 }
 #first-nav ul li a{
     text-decoration: none;
