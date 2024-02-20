@@ -20,7 +20,7 @@ body{
     width: 72.5%;
     background-color: #1b1a1a;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(180px,600px));
+    grid-template-columns: repeat(auto-fit,minmax(180px,400px));
     grid-gap: 1rem;
     padding-top: 5rem;
 }
@@ -118,10 +118,10 @@ body{
     height: 1.3rem;
     vertical-align: middle;
     display: inline;
+    
 }
 #bar-main1 ul li a{
     text-decoration: none;
-    border-right: 2px solid black;
     color: black;
     font-family: "Roboto Mono", monospace;
     font-weight: 500;
@@ -142,7 +142,6 @@ body{
     height: 2.4rem;
     width: 9.5rem;
     background-image: url(images/4.jfif);
-    opacity: 0.7;
 }
 #bar-main2{
     height: 100%;
@@ -177,7 +176,7 @@ body{
 }
 #main-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 120px));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 180px));
     grid-gap: 1rem;
     padding-left: 2rem;
 }
