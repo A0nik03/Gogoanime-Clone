@@ -1,5 +1,5 @@
 #rankings{
-    grid-row: 3/8;
+    grid-row: 2/3;
     grid-column: 3/4;
     border: 1px solid white;
 }
@@ -79,7 +79,7 @@
 }
 
 #ongoings{
-    grid-row: 8/12;
+    grid-row: 4/5;
     grid-column: 3/4;
     border: 1px solid white;
 }
